@@ -1,12 +1,11 @@
 <template>
 	<div>
-		<h1 class="bg-blue-500">App skateboard</h1>
-		<p>{{ name }}</p>
-		<mycomponent />
+		<dashboard />
 	</div>
 </template>
 
 <script lang="ts" setup>
-import mycomponent from "./components/mycomponent.vue";
+import dashboard from "./layouts/dashboard.vue";
 const name = "Filipe";
 </script>
+, Dashboard
